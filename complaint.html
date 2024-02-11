@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complaint</title>
+    <link rel="stylesheet" href="complaint.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+</head>
+<body>
+
+    <header>
+        <div class="navbar">
+            <div class="logo_name">
+            
+                    <div class="logo">
+                    </div>
+                    <h1>SGGS MEDIA</h1>
+                    <br>
+                    <h5>Gov. Aided Autonomous Institute in Maharashtra State, India(SGGS NANDED)</h5>
+                
+            </div>
+        </div>
+
+        <div class="navbar2">
+
+            <div class="nav_home">
+                 <a href="index.html" class="home"><i class="fa-solid fa-house"></i></a>
+            </div>
+
+            <div class="nav_com">
+                 <a href="complaint.html" class="Complaint">Complaint</a>
+            </div>
+
+            <div class="nav_search">
+                <input type="search" placeholder="Enter username" class="input">
+                <div class="search">
+                    <a class="search3"><i class="fa-solid fa-magnifying-glass"></i></a>
+                </div>
+            </div>
+
+            <div class="nav_msg">
+                  <a class="messege" href="messege.html"><i class="fa-solid fa-envelope-open"></i></a>
+            </div>
+            <div class="nav_noti">
+                 <a class="notofication"> <i class="fa-regular fa-bell"></i></a>
+            </div>
+            <div class="nav_profile">
+                 <a class="profile" href="profile.html"><i class="fa-solid fa-user"></i></a>
+            </div>
+            
+        </div>
+    </header>
+    <div class="line_follow"></div>
+    <div  class="form">
+        <div class="heading">
+            <h1>
+                Complaint
+            </h1>
+        </div>
+        <div class="form_symbol">
+            <form action="complaint.php" method="post">
+             
+                <lable>Issue</lable><br>
+                <select class="select">
+                    <option>All</option>
+                    <option value="">Acadamics </option>
+                    <option value="">Regarding faculty</option>
+                    <option value=""> regarding compus event</option>
+                    <option value="">Sport</option>
+                 </select><br><br>
+
+                 <lable> Branch</lable><br>
+                 <input type="text" class="inpute2" placeholder="enter a branch" required><br><br>
+
+                 <label > Problem</label><br>
+                 <input type="text" class="inpute2" placeholder="enter your problem" required><br><br>
+
+                 <label> Acadamic year</label><br>
+                 <input type="number" class="inpute2" placeholder="enter acadamic year" required><br><br>
+             
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

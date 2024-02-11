@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create a new account</title>
+    <link rel="stylesheet" href="cna.css">
+</head>
+<body>
+    <main>
+        <div class="cna">
+            <form action="signup.php" method = "post" id="register">
+                <h3>Create your account!</h3>
+
+                <div class="fn">
+                    <label for="fullname">Full Name</label>
+                    <input type="text" name="fullname" id="fullname" required>
+                </div>
+
+                <div class="mail">
+                    <label for="mail">College mail Id</label>
+                    <input type="varchar" name="email" id="email" required>
+                </div>
+
+                <div class="dob">
+                    <label for="dob">Date of Birth</label>
+                    <input type="date" name="dob" id="dob">
+                </div>
+
+                <div class="mobileno">
+                    <label for="mobileno">Mobile Number</label>
+                    <input type="varchar" name="mobileno" id="mobileno" required>
+                </div>
+
+                <!-- <div class="upload">
+                    <label for="photo">Upload photo of college Id card</label>
+                    <input type="file" name="photo" id="photo" required>
+                </div> -->
+                <!-- <div class="password">
+                    <label for="password">Mobile Number</label>
+                    <input type="varchar" name="password" id="password" required>
+                </div> -->
+
+                <div class="cpassword">
+                    <label for="cpassword">Password</label>
+                    <input type="varchar" name="cpassword" id="cpassword" required>
+                </div>
+
+                <div class="verify">
+                    <button type="submit" id="verify">Verify your email!</button></a>
+                </div>
+            </form>
+        </div>
+    </main>
+    <script src="cna.js"></script>
+</body>
+</html>

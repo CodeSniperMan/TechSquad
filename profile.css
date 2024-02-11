@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+a {
+    text-decoration: none;
+}
+header {
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    background-image: url(1670069016.png);
+    background-size: cover;
+}
+.home{
+    color:rgb(0, 0, 0);
+}
+.search3{
+    color: black;
+}
+.messege{
+    color: black;
+}
+.notification{
+    color: black;
+}
+.Complaint {
+    color:black;
+}
+.profile{
+    color: rgb(255, 255, 255);
+}
+.navbar {
+    height: 70px;
+    display: flex;
+    font-size: 20px;
+}
+.logo_name{
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px;
+}
+.logo{
+    height: 50px;
+    width: 50px;
+    background-image: url(Shri_Guru_Gobind_Singhji_Institute_of_Engineering_and_Technology__SGGSIE_T__logo-removebg-preview\ \(1\).png);
+    background-size: cover;
+}
+.navbar2{
+    font-size: 30px;
+    color: black;
+    display: flex;
+    justify-content: space-evenly;
+    text-decoration: none;
+}
+.nav_search{
+    display: flex;
+}
+.search{
+    justify-content: center;
+    align-items: center;
+}
+.input {
+    height: 40px;
+    width: 500px;
+    border-radius: 10px;
+    background-color:pink ;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+.line_follow{
+    height: 5px;
+    background-color: rgb(255, 255, 255);
+}
+body{
+    background-image: url(360_F_391461057_5P0BOWl4lY442Zoo9rzEeJU0S2c1WDZR.jpg);
+    background-size: cover;
+}
+.Dhmaka{
+    color: white;
+}
+/* Previous styles remain unchanged */
+.profile-container {
+    max-width: 600px;
+    margin: 20px auto;
+    border: 5px solid #000000;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-header {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 5px solid #000000;
+}
+
+.profile-picture {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.user-details {
+    flex-grow: 1;
+}
+
+.username {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+.bio {
+    margin: 5px 0;
+}
+
+.profile-actions {
+    padding: 20px;
+}
+
+.follow-button {
+    background-color: #1da1f2;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.posts-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 5px solid #000000;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.section-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.post {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
